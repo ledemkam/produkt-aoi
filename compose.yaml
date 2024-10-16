@@ -4,7 +4,7 @@ services:
     container_name: produktserver
     restart: always
     env_file:
-      - .env
+      - /.env
     ports:
       - "3310:3306"
     environment:
